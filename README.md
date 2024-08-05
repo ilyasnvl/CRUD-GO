@@ -1,14 +1,40 @@
-CRUD GO
+# CRUD-GO
+## Basic CRUD Daftar Pegawai with GO
 
-Basic CRUD Daftar Pegawai with GO
+## Features
 
-Feature
+- List Pegawai
+- Form Add Pegawai
+- Form Edit Pegawai
 
-List Pegawai
-Form Add Pegawai
-Form Edit Pegawai
+## Tech Stack
 
-Tech Stack
-Golang
-PostgreSQL
-Bootstrap
+- Golang
+- PostgreSQL
+- Bootstrap
+
+## Installation
+
+1. Clone Repository 
+
+```sh
+git clone https://github.com/ilyasnvl/CRUD-GO.git
+cd CRUD-GO
+```
+
+2. Instal Dependensi
+
+```sh
+go mod tidy
+go mod vendor
+```
+
+3. Setup Database
+```sh
+CREATE DATABASE employee;
+```
+
+4. Jalankan Aplikasi
+```
+go run main.go
+```
